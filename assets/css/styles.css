@@ -455,7 +455,7 @@ img {
 
 /*========== MEDIA QUERIES ==========*/
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 390px) {
     .home__data {
         padding-top: 50px;
     }
