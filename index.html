@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--========== BOX ICONS ==========-->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--========== CSS ==========-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>IT ACADEMY</title>
+</head>
+
+<body>
+
+  <!--========== SCROLL TOP ==========-->
+  <a href="#" class="scrolltop" id="scroll-top">
+    <i class='bx bx-chevron-up scrolltop__icon'></i>
+  </a>
+
+  <!--========== HEADER ==========-->
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="#" class="nav__logo">IT Academy</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active-link">Bosh sahifa</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">Biz haqimizda</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">Servislar</a></li>
+          <li class="nav__item"><a href="#menu" class="nav__link">Sharhlar</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Kontaktlar</a></li>
+
+          <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--========== HOME ==========-->
+    <section class="home" id="home">
+      <div class="home__container bd-container bd-grid">
+        <div class="home__data">
+          <h1 class="home__title">IT mutaxassisi bo'ling!</h1>
+          <h2 class="home__subtitle">Dasturlash, Web sayt yaratish, <br>Python va boshqa ko'plab kurslar bizda!</h2>
+          <a href="#" class="button">Kurslar bilan tanishing</a>
+        </div>
+
+        <img src="assets/img/home-img.png" alt="" class="home__img">
+      </div>
+    </section>
+
+    <!--========== ABOUT ==========-->
+    <section class="about section bd-container" id="about">
+      <div class="about__container  bd-grid">
+        <div class="about__data">
+          <span class="section-subtitle about__initial">Biz haqimizda</span>
+          <h2 class="section-title about__initial">Innovatsion IT Ta’lim Markazi</h2>
+          <p class="about__description">IT Kurslari markazi — bu zamonaviy dasturlash, web texnologiyalar va kiberxavfsizlik sohalarida sifatli ta’lim beruvchi ilg'or o'quv muassasasi. Bizning asosiy maqsadimiz — talabalarni IT sohasiga chuqur tayyorlab, ularni zamonaviy mehnat bozoriga yetuk mutaxassis sifatida chiqarishdir.</p>
+          <a href="#" class="button">Biz haqimizda ko'proq</a>
+        </div>
+
+        <img src="assets/img/about-img.jpg" alt="" class="about__img">
+      </div>
+    </section>
+
+    <!--========== SERVICES ==========-->
+    <section class="services section bd-container" id="services">
+      <span class="section-subtitle">Taklif</span>
+      <h2 class="section-title">Bizning ajoyib xizmatlarimiz</h2>
+
+      <div class="services__container  bd-grid">
+        <div class="services__content">
+          <svg width="100" height="100" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="10" width="56" height="36" rx="4" fill="#4CAF50" />
+            <rect x="8" y="14" width="48" height="28" rx="2" fill="white" />
+            <rect x="26" y="46" width="12" height="4" fill="#4CAF50" />
+            <rect x="22" y="50" width="20" height="4" fill="#333" />
+            <circle cx="32" cy="28" r="6" stroke="#4CAF50" stroke-width="2" fill="none" />
+            <path d="M32 22 L32 34 M26 28 L38 28" stroke="#4CAF50" stroke-width="2" />
+          </svg>
+
+          <h3 class="services__title">IT Kurslari</h3>
+          <p class="services__description">IT sohasida tajribaga ega bo'lgan ustozlar sizga bilim beradi.</p>
+        </div>
+
+        <div class="services__content">
+          <svg width="100" height="100" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Kitob shakli -->
+            <rect x="10" y="8" width="44" height="48" rx="4" fill="#1976D2" />
+            <rect x="14" y="12" width="36" height="40" rx="2" fill="white" />
+
+            <!-- Grafik ustunlar -->
+            <rect x="18" y="40" width="4" height="8" fill="#4CAF50" />
+            <rect x="26" y="36" width="4" height="12" fill="#FF9800" />
+            <rect x="34" y="30" width="4" height="18" fill="#F44336" />
+            <rect x="42" y="24" width="4" height="24" fill="#9C27B0" />
+
+            <!-- Matn o‘rnida chiziqlar -->
+            <line x1="18" y1="18" x2="46" y2="18" stroke="#ccc" stroke-width="1" />
+            <line x1="18" y1="22" x2="46" y2="22" stroke="#ccc" stroke-width="1" />
+            <line x1="18" y1="26" x2="46" y2="26" stroke="#ccc" stroke-width="1" />
+          </svg>
+
+          <h3 class="services__title">Buxgalteriya</h3>
+          <p class="services__description">Buxgalteriya turli sohalarida hisobot yuritishni bilib olasiz.</p>
+        </div>
+
+        <div class="services__content">
+          <svg width="100" height="100" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="40" width="60" height="10" rx="5" fill="#F4A261" />
+            <circle cx="32" cy="22" r="10" fill="#2A9D8F" />
+            <path d="M20 55C20 50 24 48 32 48C40 48 44 50 44 55V58H20V55Z" fill="#264653" />
+            <path d="M16 40C16 37.7909 17.7909 36 20 36H44C46.2091 36 48 37.7909 48 40V42H16V40Z" fill="#E76F51" />
+          </svg>
+
+          <h3 class="services__title">Massaj</h3>
+          <p class="services__description">
+            Sizga 7 turdagi massajni o'rgatamiz.
+            Ikkinchi darsdan jonli amaliyot.</p>
+        </div>
+
+        <div class="services__content">
+          <svg width="100" height="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L4 5V11C4 16.5 7.5 21.74 12 23C16.5 21.74 20 16.5 20 11V5L12 2Z" fill="#2A9D8F" />
+            <path d="M9 11C9 9.34 10.34 8 12 8C13.66 8 15 9.34 15 11V13H14V15H10V13H9V11Z" fill="white" />
+          </svg>
+
+          <h3 class="services__title">Kiberxavfsizlik</h3>
+          <p class="services__description">
+            Boshlang'ich bilimlarsiz 9 oy ichida kiberxavfsizlik sohasini o'rganing </p>
+        </div>
+      </div>
+    </section>
+
+    <!--========== MENU ==========-->
+    <section class="menu section bd-container" id="menu">
+      <h2 class="section-title">O'quvchilarimizning fikri</h2>
+
+      <div class="menu__container bd-grid">
+        <div class="menu__content">
+          <img src="assets/img/user1.png" alt="" class="menu__img">
+          <h3 class="menu__name">Aziza Qurbonova</h3>
+          <span class="menu__detail">IT Kurslari hayotimni o'zgartirdi. Endi men IT kompaniyada ishlab yuribman.
+            Rahmat!</span>
+          <a href="#" class="button menu__button">Ko'proq bilish</a>
+        </div>
+
+        <div class="menu__content">
+          <img src="assets/img/user2.png" alt="" class="menu__img">
+          <h3 class="menu__name">Farrux Zoitov</h3>
+          <span class="menu__detail">Kiberxavfsizlik kursi menga onlayn tahdidlardan qanday himoyalanishni,
+            o'rgatdi.</span>
+          <a href="#" class="button menu__button">Ko'proq bilish</i></a>
+        </div>
+
+        <div class="menu__content">
+          <img src="assets/img/user3.png" alt="" class="menu__img">
+          <h3 class="menu__name">Spinach salad</h3>
+          <span class="menu__detail">Men Web dasturlashni shu yerda o'rgandim va hozirda freelancer sifatida
+            ishlayapman.</span>
+          <a href="#" class="button menu__button">Ko'proq bilish</a>
+        </div>
+      </div>
+    </section>
+
+    <!--===== APP =======-->
+    <section class="app section bd-container">
+      <h2 class="app-title">Bizning manzilimiz</h2>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.868465850105!2d69.37562400000002!3d41.246423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae5ed62232a56d%3A0x2526bdadad7ea59e!2z0KDQtdGB0L_Rg9Cx0LvQuNC60LDQvdGB0LrQuNC5INC_0YDQvtGE0LXRgdGB0LjQvtC90LDQu9GM0L3Ri9C5INC60L7Qu9C70LXQtNC2INGC0LXQu9C10LLQuNC00LXQvdC40Y8g0Lgg0YDQsNC00LjQvg!5e0!3m2!1sru!2s!4v1748507746591!5m2!1sru!2s"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <!--========== CONTACT US ==========-->
+    <section class="contact section bd-container" id="contact">
+      <div class="contact__container bd-grid">
+        <div class="contact__data">
+          <h2 class="section-title contact__initial">Biz bilan bog'lanish</h2>
+          <p class="contact__description">Biz bilan bog'laning! Agar sizda savollar, takliflar yoki kurslarimiz haqida
+            qo'shimcha ma’lumot kerak bo'lsa, bizga bemalol murojaat qiling. Sizning fikringiz biz uchun muhim!</p>
+        </div>
+
+        <div class="contact__button">
+          <a href="#" class="button">
+            Hoziroq biz bilan bog'laning</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--========== FOOTER ==========-->
+  <footer class="footer section bd-container">
+    <div class="footer__container bd-grid">
+      <div class="footer__content">
+        <a href="#" class="footer__logo">IT Academy</a>
+        <div>
+          <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+          <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+          <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+        </div>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Servislar</h3>
+        <ul>
+          <li><a href="#" class="footer__link">Online darslar</a></li>
+          <li><a href="#" class="footer__link">Mentorlik xizmatlari</a></li>
+          <li><a href="#" class="footer__link">Kurs materiallari</a></li>
+          <li><a href="#" class="footer__link">Imtihonlar va sertifikatlar</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Informatsiya</h3>
+        <ul>
+          <li><a href="#" class="footer__link">Biz haqimizda</a></li>
+          <li><a href="#" class="footer__link">
+              Biz bilan bog'lanish</a></li>
+          <li><a href="#" class="footer__link">Maxfiylik siyosati</a></li>
+          <li><a href="#" class="footer__link">Yordam markazi</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Manzil</h3>
+        <ul>
+          <li>Toshkent sh. Rohat k. 29</li>
+          <li>+998 71 295 67 41</li>
+          <li> rtrk@rtrk.uz</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer__copy">&#169; 2025 IT Academy. Barcha huquqlar himoyalangan.</p>
+  </footer>
+
+  <!--========== SCROLL REVEAL ==========-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--========== MAIN JS ==========-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
